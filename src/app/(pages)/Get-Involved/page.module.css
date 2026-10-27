@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.main {
+    position: relative;
+    background-image: url('/images/Nanette - Get Involved (Most Updated Iteration).png');
+    min-height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    font-family: var(--font-poppins), sans-serif;
+}
+
+.overlayLines {
+    top: 300px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.overlay1 {
+    top: 350px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.overlayMascot {
+    top: 300px;
+    left: 350px;
+    position: absolute;
+    width: 1300px;
+    height: 1000px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.overlay2 {
+    top: 720px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 200px;
+}
+
+.includetitle{
+    font-size: 74px;
+    font-family: "Shrikhand", serif;
+    font-weight: 200px;
+}
+
+.includesubtext{
+    font-size: 20px;
+    width: 50%;
+}
+
+
+.choosepathway {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    padding-top: 800px;
+    font-size: 30px;
+}
+
+.pathways{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.pathway{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+
+    width: 50%;
+    border-radius: 20px;
+    background-color: #2E2E2E;
+    padding: 47px 68px 47px 68px;
+}
+
+.pathwaytitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+
+.pathwaydesc{
+    font-size: 18px;
+}
+
+/* ------------------------------------------- */
+
+.overlayStars{
+    top: 2000px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.content1 {
+    position: relative;
+    z-index: 2;
+    padding: 200px;
+    padding-top: 400px;
+}
+
+.teampositions {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+
+    
+}
+
+.positioncard {
+    display: grid;
+    gap: 40px;
+
+    border-radius: 20px;
+    background-color: #2E2E2E;
+    padding: 47px 68px 47px 68px;
+}
+
+.joinBtn{
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.content2 {
+    position: relative;
+    z-index: 2;
+    padding: 200px;
+    padding-top: 400px;
+}
+
+.FAQcontainer{
+    
+}
+
+.FAQ{
+
+}
+
+.FAQquestion{
+    
+}
+
